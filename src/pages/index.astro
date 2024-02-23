@@ -1,6 +1,9 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Designs from "../components/Designs.astro";
+import WhatsappIcon from "../icons/Whatsapp.astro";
+import FacebookIcon from "../icons/Facebook.astro";
+import InstagramIcon from "../icons/Instagram.astro";
 ---
 
 <Layout title="Grupo Visual">
@@ -30,6 +33,55 @@ import Designs from "../components/Designs.astro";
 
       <Designs />
     </div>
-    <div class="w-full"></div>
+    <div class="w-full px-8 flex flex-col justify-center items-center relative">
+      <div class="w-fit h-fit">
+        <h1 class="text-back font-bold text-8xl">Em breve!</h1>
+        <div class="text-right w-full flex flex-col items-end">
+          <span class="text-back">Este site está em construção</span>
+          <h2 class="text-5xl font-bold text-primary w-96 mt-12">
+            Estamos fazendo mudanças para melhor!
+          </h2>
+
+          <a
+            href="https://www.gpvisualead.com.br/login"
+            target="_blank"
+            class="mt-12"
+          >
+            <button
+              class="bg-primary text-white text-2xl font-bold p-6 shadow-sm hover:scale-110 duration-200"
+            >
+              ÁREA DO ALUNO</button
+            >
+          </a>
+
+          <div class="w-fit mt-12 flex space-x-3">
+            <a target="_blank" href="https://www.instagram.com/grupovisualfb/">
+              <div
+                class="w-10 h-10 bg-back p-2 rounded-full hover:scale-110 duration-200"
+              >
+                <InstagramIcon />
+              </div>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/grupovisualcursos/?ref=pages_you_manage"
+            >
+              <div
+                class="w-10 h-10 bg-back p-2 rounded-full hover:scale-110 duration-200"
+              >
+                <FacebookIcon />
+              </div>
+            </a>
+            <a target="_blank" href="https://wa.me/+554630554355">
+              <div
+                class="w-10 h-10 bg-back p-2 rounded-full hover:scale-110 duration-200"
+              >
+                <WhatsappIcon />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
 </Layout>
