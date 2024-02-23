@@ -8,14 +8,14 @@ import InstagramIcon from "../icons/Instagram.astro";
 
 <Layout title="Grupo Visual">
   <main class="w-full min-h-screen flex">
-    <div
-      class="w-full bg-back relative pl-4 sm:pl-8 md:pl-12 lg:pl-16 xl:pl-20"
-    >
-      <h3 class="text-white italic text-3xl w-64 max-w-[80%] mt-52 z-20">
+    <div class="w-full bg-back relative pl-4 sm:pl-4 lg:pl-8 xl:pl-12">
+      <h3
+        class="text-white italic text-3xl w-64 max-w-[80%] mt-52 z-20 hidden xl:block"
+      >
         Estude com a gente e saia na frente!
       </h3>
       <div
-        class="h-20 w-10/12 bg-secondary pl-8 py-2 absolute top-0 left-0"
+        class="h-20 w-full lg:w-10/12 bg-secondary pl-8 py-2 absolute top-0 left-0"
         aria-hidden
       >
         <img
@@ -35,10 +35,12 @@ import InstagramIcon from "../icons/Instagram.astro";
     </div>
     <div class="w-full px-8 flex flex-col justify-center items-center relative">
       <div class="w-fit h-fit">
-        <h1 class="text-back font-bold text-8xl">Em breve!</h1>
+        <h1 class="text-back font-bold text-7xl lg:text-8xl text-right">
+          Em breve!
+        </h1>
         <div class="text-right w-full flex flex-col items-end">
           <span class="text-back">Este site está em construção</span>
-          <h2 class="text-5xl font-bold text-primary w-96 mt-12">
+          <h2 class="text-4xl lg:text-5xl font-bold text-primary w-96 mt-12">
             Estamos fazendo mudanças para melhor!
           </h2>
 
