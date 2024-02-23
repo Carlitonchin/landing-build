@@ -8,6 +8,19 @@ export default {
         secondary: "#017bc4",
         back: "#045084",
       },
+      screens: {
+        sm: "640px",
+
+        md: "768px",
+
+        "md-lg": "900px",
+
+        lg: "1024px",
+
+        xl: "1280px",
+
+        "2xl": "1536px",
+      },
     },
   },
   plugins: [],
